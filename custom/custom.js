@@ -12,6 +12,9 @@ $(document).ready(function(){
 				var json_obj = JSON.parse(result);
 				
 				var text = '<div class="container"><div class="row">';
+				if(json_obj.results.length <= 0){
+					text += 'No results found.';
+				}
 				var i;
 				for (i = 0; i < json_obj.results.length; i++) {
 				  //if no poster - display some default image instead
