@@ -10,7 +10,7 @@ class API {
 
 	 public function DB_conn()
 	 {
-		$this->conn = new PDO("mysql:host=localhost;dbname=geekaby1_movies", "geekaby1_movies", "!X2GkR]1y8Cr");
+		$this->conn = new PDO("mysql:host=localhost;dbname=xxxxxx", "xxxxx", "xxxxxx");
 	 }
 	
 	 //can be accessed via http://movies.geekabyte-testing.co.za/api/test_api.php?action=fetch_all
