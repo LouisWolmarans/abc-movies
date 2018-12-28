@@ -1,0 +1,8 @@
+RewriteEngine On
+RewriteCond %{REQUEST_FILENAME} !-f
+RewriteCond %{REQUEST_FILENAME} !-d
+RewriteCond $1 !^(phpMyAdminConsole|api|index\.php|robots\.txt)
+RewriteRule ^(.*)$ index.php?/$1 [L]
+
+#RewriteCond %{HTTP:X-Forwarded-Proto} !=https
+#RewriteRule .* https://%{HTTP_HOST}%{REQUEST_URI} [R=302,L]
