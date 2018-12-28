@@ -10,7 +10,7 @@ Please create a simple web application that allows users to:
 
 API details:
 * You will be using an API from The Movie DB (https://developers.themoviedb.org/3/getting-started)
-* API Key: 531eaffcac14a8c431f91d7a77a345e8
+* API Key: xxxxxxxx
 * Example get popular:
 https://api.themoviedb.org/3/movie/popular?api_key=xxxxxxxx
 * Example search: https://api.themoviedb.org/3/search/movie?api_key=xxxxxxxx&query=home%20alone 
