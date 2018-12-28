@@ -1,70 +1,22 @@
-###################
-What is CodeIgniter
-###################
+Project Outline
+Please create a simple web application that allows users to:
+* Allow you to search for movies and add movies to a "watch later" list. 
+* Users should be able to search for a movie by entering text. 
+* These results should be displayed to the user with sufficient information for them to choose to add it to their "watch later" list. 
+* Users should also be able to view their "watch later" list and remove items from the list. 
+* Selecting an item should show more details about the movie.
+* The "watch later" list should be persisted somewhere like a database.
+* A user will login so that the "watch later" list can be stored against their user, so that if a different user logs in, they won't see the same list.
 
-CodeIgniter is an Application Development Framework - a toolkit - for people
-who build web sites using PHP. Its goal is to enable you to develop projects
-much faster than you could if you were writing code from scratch, by providing
-a rich set of libraries for commonly needed tasks, as well as a simple
-interface and logical structure to access these libraries. CodeIgniter lets
-you creatively focus on your project by minimizing the amount of code needed
-for a given task.
+API details:
+* You will be using an API from The Movie DB (https://developers.themoviedb.org/3/getting-started)
+* API Key: 531eaffcac14a8c431f91d7a77a345e8
+* Example get popular:
+https://api.themoviedb.org/3/movie/popular?api_key=xxxxxxxx
+* Example search: https://api.themoviedb.org/3/search/movie?api_key=xxxxxxxx&query=home%20alone 
+* Example get details: https://api.themoviedb.org/3/movie/12536?api_key=xxxxxxxx
 
-*******************
-Release Information
-*******************
+The choice of technology is up to you:
+Ideally, this project shouldn't take you too long. It isn't about creating a project that you would be happy to put into production, but more to give us the best idea of how you write code and approach a problem. There is no right or wrong answer here, this is just an opportunity for you to show us how you think and code. 
 
-This repo contains in-development code for future releases. To download the
-latest stable release please visit the `CodeIgniter Downloads
-<https://codeigniter.com/download>`_ page.
-
-**************************
-Changelog and New Features
-**************************
-
-You can find a list of all changes for each release in the `user
-guide change log <https://github.com/bcit-ci/CodeIgniter/blob/develop/user_guide_src/source/changelog.rst>`_.
-
-*******************
-Server Requirements
-*******************
-
-PHP version 5.6 or newer is recommended.
-
-It should work on 5.3.7 as well, but we strongly advise you NOT to run
-such old versions of PHP, because of potential security and performance
-issues, as well as missing features.
-
-************
-Installation
-************
-
-Please see the `installation section <https://codeigniter.com/user_guide/installation/index.html>`_
-of the CodeIgniter User Guide.
-
-*******
-License
-*******
-
-Please see the `license
-agreement <https://github.com/bcit-ci/CodeIgniter/blob/develop/user_guide_src/source/license.rst>`_.
-
-*********
-Resources
-*********
-
--  `User Guide <https://codeigniter.com/docs>`_
--  `Language File Translations <https://github.com/bcit-ci/codeigniter3-translations>`_
--  `Community Forums <http://forum.codeigniter.com/>`_
--  `Community Wiki <https://github.com/bcit-ci/CodeIgniter/wiki>`_
--  `Community Slack Channel <https://codeigniterchat.slack.com>`_
-
-Report security issues to our `Security Panel <mailto:security@codeigniter.com>`_
-or via our `page on HackerOne <https://hackerone.com/codeigniter>`_, thank you.
-
-***************
-Acknowledgement
-***************
-
-The CodeIgniter team would like to thank EllisLab, all the
-contributors to the CodeIgniter project and you, the CodeIgniter user.
+Please make note of any compromises and assumptions you have made. You can share the code however you see fit, using something like Github might be best, but I'll leave that to you.
